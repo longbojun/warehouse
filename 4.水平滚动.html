@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>跑马灯试做</title>
+    <style>
+*{margin: 0;padding: 0;}
+#screen{border:1px solid #223344;width: 400px;height: 200px;margin:100px auto; overflow-x: scroll;}
+#box{width: 1400px;}
+#one{background: red; width:100px; height:200px;float:left;}
+#two{background: orange;width:100px; height:200px;float:left;}
+#three{background: yellow;width:100px; height:200px;float:left;}
+#four{background: green;width:100px; height:200px;float:left;}
+#five{background: lightblue;width:100px; height:200px;float:left;}
+#six{background: blue;width:100px; height:200px;float:left;}
+#seven{background: purple;width:100px; height:200px;float:left;}
+#box #boxlista ,#box #boxlistb{width: 700px;height: 200px;float:left;background:#343431;}
+#boxlista{width: 700px;}
+    </style>
+</head>
+<body>
+<div id="screen">
+    <div id="box">
+        <div id="boxlista">
+            <div id="one"></div>
+            <div id="two"></div>
+            <div id="three"></div>
+            <div id="four"></div>
+            <div id="five"></div>
+            <div id="six"></div>
+            <div id="seven"></div>
+        <div id="boxlistb">
+            <div id="one"></div>
+            <div id="two"></div>
+            <div id="three"></div>
+            <div id="four"></div>
+            <div id="five"></div>
+            <div id="six"></div>
+            <div id="seven"></div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+<script>
+// let container=document.getElementById("screen");
+// let box=document.getElementById("boxlista");
+// function fn(){if(container.scrollLeft>=box.clientWidth){container.scrollLeft=0;}else{container.scrollLeft+=10;}}
+// setInterval(fn,200);
+
+</script>
